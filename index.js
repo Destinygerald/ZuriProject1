@@ -24,8 +24,8 @@ app.get('/zuri', (req , res) => {
 		current_day: DAYS[_Date.getDay()],
 		utc_time: _Date.toUTCString(),
 		track: track,
-		github_file_url: "https://github.com/destinyGerald/repo/blob/main/file.js",
-		github_repo_url: "https://github.com/destinyGerald/repo",
+		github_file_url: "https://github.com/Destinygerald/ZuriProject1/blob/main/index.js",
+		github_repo_url: "https://github.com/Destinygerald/ZuriProject1",
 		status_code: 200
 	})
 }) 
