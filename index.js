@@ -9,7 +9,7 @@ const DAYS = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", 
 app.use(express.json());
 
 app.get('/zuri', (req , res) => {
-	const { slack_name, track } = req.body
+	const { slack_name, track } = req.query
 
 	if (!slack_name || !track) {
 		return res.json({
